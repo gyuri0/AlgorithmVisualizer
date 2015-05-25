@@ -83,13 +83,14 @@ public class MainFrame extends JFrame {
 		JButton loadInputButton = new JButton();
 		contentPane.add(loadInputButton);
 		loadInputButton.setBounds(20, 450, 120, 30);
-		loadInputButton.setText("Load input");
+		loadInputButton.setText("Textbox load");
 		
 		JFileChooser fileChooser = new JFileChooser();
 		
 		JButton loadInputXmlButton = new JButton();
 		contentPane.add(loadInputXmlButton);
 		loadInputXmlButton.setBounds(160, 450, 120, 30);
+		loadInputXmlButton.setText("Xml load");
 		
 		algorithmCombo = new JComboBox<String>();    
 		algorithmCombo.addItem("bubblesort");
